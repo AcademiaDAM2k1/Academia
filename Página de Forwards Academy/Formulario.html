@@ -5,10 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forwards Academy</title>
-    <link rel="stylesheet" href="StyleSheet.css">
+    <!--<link rel="stylesheet" href="StyleSheet.css">-->
     <link rel="icon" href="Imagenes/LogoWeb.ico" type="image/x-icon">
 </head>
 <body>
+    <label for="inicio"></label>
+    <form> <!--Inicio del formulario-->
+     <h1>Formulario de inscripción</h1> <!--Titulo-->
+     <img src="Imagenes/LogoAcademia.png" height="50">
+     <p>Bienvenido a nuestra sección de noticias, para recibir notificaciones cuando publiquemos artículos nuevos o si desea incribirse a nuestras clases, rellene el siguiente formulario:</p>
+     <br>
+     <div>Los campos obligatorios van seguidos de <strong> <!--Inicio de un apartado del formulario-->
+         <abbr title="required">*</abbr></strong>.</p>   
+    <section>
+        <label for="name" aria-required="true">
+                <span>Nombre:</span>
+                <input type="text" id="nombre" name="name">
+                <abbr title="required">*</abbr></strong>
+            </label>
+            <label for="apellidos" aria-required="true">
+                <span>Apellidos:</span>
+                <input type="text" id="apellidos" name="apellidos">
+                <abbr title="required">*</abbr></strong>
+            </label>
+            <br>
+            <label for="email" aria-required="true">
+                <span>Email:</span>
+                <input type="email" id="email" name="email" required>
+                <abbr title="required">*</abbr></strong>
+            </label>
+            <label for="tel" aria-required="tel">
+                <span>Teléfono:</span>
+                <input type="tel" id="tel" name="tel">
+            </label>
+        </div>
+        <div>
+
+            <p>Si desea inscribirse a nuestras clases online rellene el siguiente cuadro</p>
+            <textarea cols="100" rows="5">Descripción:Curso de refuerzo, horario de disponibilidad...</textarea>
+        
+        </div>
     
+    </fieldset>
+    </form>
+    <input name="Resetear" type="reset" value="Resetear" >
+
+    <input name="Enviar" type="submit" value="Enviar">
+    <hr>
+    <footer>
+        <img src="Imagenes" width="40" alt="Imagen correo electrónico">
+        <a href="mailto:admisionesFordwards@gmail.com" >admisionesFordwards@gmail.com</a></p>
+
+    <p>Teléfono:<br>
+    956765432
+    </p>
+   
+    <img src="Imagenes" width="250" alt="Imagen redes sociales" >
+</footer>
+<hr>
 </body>
 </html>
