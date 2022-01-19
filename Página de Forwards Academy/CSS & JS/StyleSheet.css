@@ -1,0 +1,10 @@
+h1{
+    text-indent: 0.20cm;
+}
+div.centro{
+    justify-content: center;
+}
+span.separarBotones{
+    margin-left: 0.10cm;
+    margin-right: 0.10cm;
+}
