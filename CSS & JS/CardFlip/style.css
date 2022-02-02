@@ -1,0 +1,34 @@
+.card{
+    position: relative;
+    height: 170px;
+    border-radius: 10px !important;
+    width: 250px;
+    transform-style: preserve-3d;
+}
+.front, .back{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+}
+.front{
+    color: #ffffff !important;
+    background: #262a2b;
+}
+.back{
+    text-align: left;
+    font-size: 14px;
+    padding: 0.30cm;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+    color: #413e3e;
+    background: #0275d8;
+}
+.card-text{
+    color: #ffffff;
+}
